@@ -1,5 +1,5 @@
 export { default as Dashboard } from './Dashboard'
-export { default as Tickers } from './Tickers'
+export { default as Stocks } from './Stocks'
 export { default as StockComparison } from './StockComparison'
 export { default as MyWatchlist } from './Watchlist'
 export { default as News} from './News'

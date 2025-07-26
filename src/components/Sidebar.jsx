@@ -12,14 +12,14 @@ import {
     Star, 
 } from 'lucide-react';
 import myLogo from '../assets/logo/stox_logo.svg';
-import TickerDropdown from "./TickerDropdown";
+import StocksDropdown from "./StocksDropdown";
 
 const Sidebar = () => {
     const [open, setOpen] = useState(true);
 
     const Menus = [
         { title: "Dashboard", icon: <LayoutDashboard size={20} />, path: "/" },
-        { title: "Tickers", icon: <ChartCandlestick size={20} />, path: "/tickers" },
+        { title: "Stocks", icon: <ChartCandlestick size={20} />, path: "/stocks" },
         { title: "Stock Comparison", icon: <GitCompareArrows size={20} />, path: "/stock-comparison", new: true },
         { title: "My Watchlist", icon: <Star size={20} />, path: "/my-watchlist" },
         { title: "News", icon: <Newspaper size={20} />, path: "/news", new: true },
@@ -60,8 +60,8 @@ const Sidebar = () => {
 
                 <ul className="pt-6">
                     {Menus.map((menu, index) =>
-                        menu.title === "Tickers" ? (
-                            <TickerDropdown key="tickers" open={open} />
+                        menu.title === "Stocks" ? (
+                            <StocksDropdown key="stock" open={open} />
                         ) : (
                             <Link key={index} to={menu.path}>
                                 <li

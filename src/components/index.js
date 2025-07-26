@@ -1,3 +1,3 @@
 export {default as Topbar} from './Topbar'
 export {default as Sidebar} from './Sidebar'
-export {default as TickerDropdown} from './TickerDropdown'
+export {default as StocksDropdown} from './StocksDropdown'

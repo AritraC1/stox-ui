@@ -7,11 +7,11 @@ export default function Layout() {
 
     return (
         <div className={`${isDark ? 'dark' : ''} flex h-screen overflow-hidden`}>
-        <div className="flex h-screen w-full bg-white text-black dark:bg-zinc-900 dark:text-white">
+        <div className="flex h-screen w-full bg-white text-black">
             <Sidebar />
             <div className="flex flex-col flex-1">
             <Topbar />
-            <main className="flex-1 overflow-y-auto bg-gray-50 dark:bg-zinc-800">
+            <main className="flex-1 overflow-y-auto bg-gray-50">
                 <Outlet />
             </main>
             </div>
