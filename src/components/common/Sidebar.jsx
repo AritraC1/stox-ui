@@ -11,7 +11,7 @@ import {
     Newspaper, 
     Star, 
 } from 'lucide-react';
-import myLogo from '../assets/logo/stox_logo.svg';
+import myLogo from '../../assets/logo/stox_logo.svg';
 import StocksDropdown from "./StocksDropdown";
 
 const Sidebar = () => {

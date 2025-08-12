@@ -1,6 +1,6 @@
 // Layout.tsx
 import { Outlet } from "react-router-dom";
-import { Sidebar, Topbar } from "../components";
+import { Sidebar, Topbar } from "../components/common";
 
 export default function Layout() {
     const isDark = true; 
@@ -10,7 +10,7 @@ export default function Layout() {
         <div className="flex h-screen w-full bg-white text-black">
             <Sidebar />
             <div className="flex flex-col flex-1">
-            <Topbar />
+            <Topbar/>
             <main className="flex-1 overflow-y-auto bg-gray-50">
                 <Outlet />
             </main>

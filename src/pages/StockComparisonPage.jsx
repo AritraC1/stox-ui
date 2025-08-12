@@ -1,4 +1,4 @@
-const StockComparison = () => {
+const StockComparisonPage = () => {
     return(
         <div className="min-h-screen p-10">
 
@@ -15,4 +15,4 @@ const StockComparison = () => {
     )
 }
 
-export default StockComparison
+export default StockComparisonPage

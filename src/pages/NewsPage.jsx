@@ -1,4 +1,4 @@
-const News = () => {
+const NewsPage = () => {
     return(
         <div className="min-h-screen p-10">
 
@@ -12,4 +12,4 @@ const News = () => {
     )
 }
 
-export default News
+export default NewsPage

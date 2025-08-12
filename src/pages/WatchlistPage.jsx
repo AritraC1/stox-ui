@@ -1,4 +1,4 @@
-const Watchlist = () => {
+const WatchlistPage = () => {
     return(
         <div className="min-h-screen p-10">
 
@@ -15,4 +15,4 @@ const Watchlist = () => {
     )
 }
 
-export default Watchlist
+export default WatchlistPage

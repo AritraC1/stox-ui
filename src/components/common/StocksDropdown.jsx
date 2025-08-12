@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ChartCandlestick, ChevronDown, ChevronUp } from "lucide-react";
-import { fetchStocks } from "../api/stocks";
+import { fetchStocks } from "../../api/stocks";
 
 const StocksDropdown = ({ open }) => {
   const [StocksOpen, setStocksOpen] = useState(false);

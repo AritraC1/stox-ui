@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-const Stocks = () => {
+const StocksPage = () => {
     const { symbol } = useParams();
     const [data, setData] = useState(null);
 
@@ -30,4 +30,4 @@ const Stocks = () => {
     );
 }
 
-export default Stocks
+export default StocksPage
