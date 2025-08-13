@@ -67,7 +67,7 @@ const StocksPage = () => {
                 </div>
                 <button
                     onClick={toggleWatchlist}
-                    className="p-2 rounded hover:bg-gray-100"
+                    className="p-2 rounded hover:bg-gray-100 cursor-pointer"
                     title={isInWatchlist ? "Remove from Watchlist" : "Add to Watchlist"}
                 >
                     <Star
