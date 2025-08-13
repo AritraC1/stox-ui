@@ -21,10 +21,10 @@ const Sidebar = () => {
         { title: "Dashboard", icon: <LayoutDashboard size={20} />, path: "/" },
         { title: "Stocks", icon: <ChartCandlestick size={20} />, path: "/stocks" },
         { title: "Stock Comparison", icon: <GitCompareArrows size={20} />, path: "/stock-comparison", new: true },
-        { title: "My Watchlist", icon: <Star size={20} />, path: "/my-watchlist" },
-        { title: "News", icon: <Newspaper size={20} />, path: "/news", new: true },
-        { title: "Setting", icon: <Settings size={20} />, path: "/settings", gap: true },
-        { title: "Help", icon: <BadgeQuestionMark size={20} />, path: "/help" },
+        { title: "My Watchlist", icon: <Star size={20} />, path: "/my-watchlist", new: true },
+        // { title: "News", icon: <Newspaper size={20} />, path: "/news", new: true },
+        // { title: "Setting", icon: <Settings size={20} />, path: "/settings", gap: true },
+        // { title: "Help", icon: <BadgeQuestionMark size={20} />, path: "/help" },
     ];
 
     return (
